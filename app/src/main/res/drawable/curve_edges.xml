@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#E0E0E0" /> <!-- Light grey background -->
+    <corners android:radius="16dp" /> <!-- Curve edges -->
+    <stroke
+        android:width="2dp"
+        android:color="#BDBDBD" /> <!-- Border with a darker grey -->
+    <padding
+        android:left="12dp"
+        android:top="12dp"
+        android:right="12dp"
+        android:bottom="12dp" />
+</shape>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:backgroundTint="#B4E4FA"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/logo"
+            android:contentDescription="App Logo"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avalable serices"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <!-- Services List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtcarpntr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Carpenter"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtelectrn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrition"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtplmbr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plumber"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtmechnc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mechanic"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtparlor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parlor"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtsweeper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sweeper"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtgardnr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gardener"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtmaid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maid"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtcaretkr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Caretaker"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtphotogrphr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photographer"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/txtweldr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welder"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barber"
+                android:padding="16dp"
+                android:background="@drawable/border"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:layout_marginBottom="12dp" />
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
