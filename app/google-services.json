@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "933895119018",
+    "firebase_url": "https://official-project-ab049-default-rtdb.firebaseio.com",
+    "project_id": "official-project-ab049",
+    "storage_bucket": "official-project-ab049.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933895119018:android:8f0a69ce568274a0af30d3",
+        "android_client_info": {
+          "package_name": "com.example.careathome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEKUeTs2ja2E24U7Lb9zUB8CGZCv_0qkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
