@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom styles for form inputs -->
+    <style name="InputLabel">
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="InputField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/rounded_input</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="LabelStyle">
+        <item name="android:textColor">#555</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="ValueStyle">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="ProfileLabel">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#555</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="ProfileValue">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Custom style for CardViews -->
+    <style name="CardStyle" parent="CardView.Light">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <!-- Style for section titles within the app -->
+    <style name="SectionTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Style for general section content text -->
+    <style name="SectionContent">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+    <!-- Style for contact information rows -->
+    <style name="ContactRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Style for icons in contact rows -->
+    <style name="ContactIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:tint">@color/black</item>
+    </style>
+
+    <!-- Style for text in contact rows -->
+    <style name="ContactText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

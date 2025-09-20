@@ -41,11 +41,11 @@ public class Home_Screen extends AppCompatActivity implements BottomNavigationVi
             replaceFragment(new HomeFragment());
             return true;
         } else if (itemId == R.id.navigation_dashboard) {
-            Toast.makeText(Home_Screen.this, "dashboard clicked", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Home_Screen.this, "Profile clicked", Toast.LENGTH_SHORT).show();
             replaceFragment(new ProfileFragment());
             return true;
-        } else if (itemId == R.id.navigation_notifications) {
-            Toast.makeText(Home_Screen.this, "Profile Clicked", Toast.LENGTH_SHORT).show();
+        } else if (itemId == R.id.navigation_about) {
+            Toast.makeText(Home_Screen.this, "About Clicked", Toast.LENGTH_SHORT).show();
             replaceFragment(new AboutFragment());
             return true;
         }
